@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-x-center {
+  justify-content: center;
+}
+
+.flex-y-center {
+  align-items: center;
+}
+
+.flex-self-center {
+  align-self: center;
+}
+
+.flex-unstretch {
+  flex: 0 1 auto;
+}
+
+.flex-stretch {
+  flex: 1 0 auto;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
