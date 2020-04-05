@@ -48,3 +48,21 @@
 .space-evenly {
   justify-content: space-evenly;
 }
+
+.margin-1 {
+  margin: 1rem;
+}
+
+.margin-2 {
+  margin: 2rem;
+}
+
+input {
+  padding: 0.4rem;
+  border: 2px solid #aaa;
+  transition: 3s;
+}
+
+input:hover {
+  border-color: dodgerblue;
+}
